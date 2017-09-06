@@ -1,5 +1,5 @@
-// const chai = require('chai'),
-var assert = chai.assert;
+const chai = require('chai'),
+    assert = chai.assert;
 
 describe('array', () => {
     var arr = [];

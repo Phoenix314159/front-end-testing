@@ -8,13 +8,16 @@
             <link rel="stylesheet" href="node_modules/mocha/mocha.css">
             <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
             <title>Mocha Tests</title>
+
       </head>
       <body>
             <script src="node_modules/mocha/mocha.js"></script>
             <script src="node_modules/chai/chai.js"></script>
             <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
             <script>mocha.setup('bdd')</script>
-            <script src="/test.js"></script>
+            <script src="test.js"></script>
+            <script src="jd/className.js"></script>
+            <script src="classNameTest.js"></script>
             <button class="btn btn-warning" onClick="mocha.run()">Run Test</button>
             <div id="mocha"></div>
       </body>
